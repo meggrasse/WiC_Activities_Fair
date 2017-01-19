@@ -15,6 +15,8 @@ class ViewController: UIViewController {
         self.view.backgroundColor = UIColor.red;
         UIView.animate(withDuration: 0.1, delay: 0.0, options:[UIViewAnimationOptions.repeat, UIViewAnimationOptions.autoreverse], animations: {
             self.view.backgroundColor = UIColor.red
+            self.view.backgroundColor = UIColor.blue
+            self.view.backgroundColor = UIColor.green
                 }, completion: nil)
     }
 
